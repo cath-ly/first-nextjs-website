@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+pnpm-lock.yaml
 
 # testing
 /coverage
@@ -35,9 +36,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#prettier
+# eslint/prettier 
 .eslintrc
 .prettierrc
 .prettierignore
-
-.yaml
